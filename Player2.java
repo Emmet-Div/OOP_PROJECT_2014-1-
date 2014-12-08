@@ -5,18 +5,12 @@ import javax.swing.*;
  *@author Emmet Diviney
  *@version 1*/
  
-public class Player implements Serializable {//saves the file
+public class Player2 implements Serializable {//saves the file
 	//attributes
 	private int win=0;
 	 private int loss=0; 
 	private String name;
-	/**Singlie argument constructor method
-	 *@param name the name pf the player*/
-	public Player(String name){
-		this.name=name;
-		this.win=win;
-		this.loss=loss;
-	}
+
 	/**Mutator method to set the players name
 	 *@param name sets the player name*/
 	public void setName(String name){
